@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HISTORIAL DE BUSQUEDA. SECCIÓN 2*/
+
+.historialContainer {
+  background: rgb(236, 235, 235); /* COLOR */
+  height: 400px;
+}
+.txt {
+  display: flex;
+  margin-left: 11rem;
+  padding: 20px 0 20px 100px;
+}
+a {
+  color: blue; /* COLOR */
+  font-size: 8px;
+  margin: 8px 0 0 8px;
+  text-decoration: underline;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15rem;
+  width: 90rem;
+}
+.card {
+  background: white; /* COLOR */
+  border-radius: 5px;
+  height: 300px;
+  overflow: hidden;
+}
+.price {
+  font-size: 1rem;
+  padding: 12px;
+}
+.line {
+  color: rgba(248, 248, 248, 0.5); /* COLOR */
+}
+
+/*SECCION 5*/
+
+.hero {
+  border: 1px solid blue;
+  width: 90rem;
+  height: 450px;
+  margin: 50px 0 0 200px;
+}
+
+.vl {
+    border-left: 1px solid rgb(185, 182, 182);
+    height: 80px;
+    margin-top: 110px;
+  }
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  
+  text-align: center;
+  padding: 40px;
+  margin: 50px 0 0 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.left {
+  text-align: center;
+  border: 1px solid rgb(228, 228, 228);
+  margin: 50px 0 0 20px;
+}
+.right {
+  text-align: center;
+  border: 1px solid rgb(228, 228, 228);
+  margin: 50px 0 0 20px;
+}
